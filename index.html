@@ -2,19 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=800, initial-scale=0.1" />
+    <meta name="viewport" content="width=800" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Joshua Carter - Software Engineer</title>
     <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
       html,
       body {
         -webkit-text-size-adjust: 100%;
         text-size-adjust: 100%;
         padding: 0;
         margin: 0;
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
+        min-width: 800px;
+        min-height: 100%;
       }
 
       .card {
